@@ -25,4 +25,4 @@ parse_git_branch() {
         echo ["$GITBR"]
      fi
 }
-export PS1="$COLOR_LIGHT_BLUE\u@\h $COLOR_YELLOW\w$COLOR_LIGHT_RED \$(parse_git_branch) $COLOR_WHITE: "
+export PS1=" \[$COLOR_LIGHT_BLUE\]\u@\h \[$COLOR_YELLOW\]\w\[$COLOR_LIGHT_RED\] \$(parse_git_branch) \[$COLOR_WHITE\]: "
