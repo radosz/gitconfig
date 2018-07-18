@@ -16,10 +16,6 @@ COLOR_YELLOW='\e[1;33m'
 COLOR_GRAY='\e[0;30m'
 COLOR_LIGHT_GRAY='\e[0;37m'
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/rado/.sdkman"
-[[ -s "/home/rado/.sdkman/bin/sdkman-init.sh" ]] && source "/home/rado/.sdkman/bin/sdkman-init.sh"
-
 # GIT
 parse_git_branch() {
 
